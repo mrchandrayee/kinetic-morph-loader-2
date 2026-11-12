@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#09090d">
+  <title>Kinetic Morph Loader — HTML, CSS & JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <div class="top-meta">
+      <span class="project-pill"><b>PROJECT 05</b><span>· HTML · CSS · JS</span></span>
+      <span class="style-pill"><i></i> Morph · square · reveal</span>
+    </div>
+
+    <header class="hero">
+      <h1>Kinetic Morph <span>Loader</span></h1>
+    </header>
+
+    <section class="browser-card" aria-label="Live loader preview">
+      <div class="browser-top">
+        <div class="traffic"><i></i><i></i><i></i></div>
+        <span class="browser-address">motion-lab / kinetic-loader</span>
+        <button class="replay" id="replayButton" type="button">Replay</button>
+      </div>
+      <div class="preview" id="preview">
+        <div class="loader-stage" id="loaderStage">
+          <div class="morph-mark" id="morphMark" aria-hidden="true">
+            <span class="tile tile-one"></span>
+            <span class="tile tile-two"></span>
+            <span class="tile tile-three"></span>
+            <span class="tile tile-four"></span>
+          </div>
+          <div class="percent-line"><strong id="percent">0</strong><span>%</span></div>
+          <div class="progress-track"><span id="progressFill"></span></div>
+          <div class="progress-labels"><span>INITIALIZING SYSTEM</span><span id="progressStatus">PLEASE WAIT</span></div>
+        </div>
+        <div class="reveal-message" id="revealMessage" aria-hidden="true">Hey</div>
+      </div>
+    </section>
+
+    <section class="code-card" aria-label="Source code preview">
+      <div class="code-tabs" role="tablist" aria-label="Source files">
+        <button class="code-tab active" data-file="html" role="tab" aria-selected="true"><i class="html-dot"></i> index.html</button>
+        <button class="code-tab" data-file="css" role="tab" aria-selected="false"><i class="css-dot"></i> style.css</button>
+        <button class="code-tab" data-file="js" role="tab" aria-selected="false"><i class="js-dot"></i> script.js</button>
+        <span class="code-menu">•••</span>
+      </div>
+      <pre class="code-content" id="codeContent" aria-live="polite"></pre>
+    </section>
+
+    <div class="comment-pill"><span>▣</span> Comment <b>"LOADER"</b> for the full source code</div>
+
+    <footer>
+      <div class="creator">
+        <div class="creator-name">◎coding.stella</div>
+        <small>animated motion, easy learning</small>
+      </div>
+      <div class="social-actions">
+        <span><b>♡</b><small>Like</small></span>
+        <span><b>▣</b><small>Save</small></span>
+        <span><b>➤</b><small>Share</small></span>
+      </div>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
